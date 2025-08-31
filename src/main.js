@@ -48,7 +48,7 @@
 
     function updateTitle() {
       const count = items.length;
-      titleEl.textContent = 'My Items (${count})';
+      titleEl.textContent = `My Items (${count})`;
     }
 
     function render() {
